@@ -77,7 +77,7 @@ local library = {
 
 library.themes = {
     {
-        name = 'LithuimWare',
+        name = 'Default',
         theme = {
             ['Accent']                    = fromrgb(80,80,80);
             ['Background']                = fromrgb(15,15,15);
@@ -4751,7 +4751,7 @@ function library:CreateSettingsTab(menu)
             end
         end
         setByPreset = false
-    end}):Select('Default');
+    end}):Select('LithuimWare');
 
     return settingsTab;
 end
