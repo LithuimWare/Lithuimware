@@ -4752,7 +4752,7 @@ function library:CreateSettingsTab(menu)
             end
         end
         setByPreset = false
-    end}):Select('LithuimWare');
+    end}):Select('Default');
 
     return settingsTab;
 end
