@@ -4621,7 +4621,8 @@ function library:CreateSettingsTab(menu)
     local mainSection = settingsTab:AddSection('Main', 1);
     local creditsSection = settingsTab:AddSection('Credits', 2);
     creditsSection:AddSeparator({text = 'Developers'});
-    creditsSection:AddText({text = "@ZEN", "@mikkiso"})
+    creditsSection:AddText({text = "@ZEN"})
+    creditsSection:AddText({text = "@@mikkiso"})
 
     configSection:AddBox({text = 'Config Name', flag = 'configinput'})
     configSection:AddList({text = 'Config', flag = 'selectedconfig'})
