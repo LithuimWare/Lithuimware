@@ -103,7 +103,7 @@ library.themes = {
         }
     },
     {
-        name = 'LithuimWare',
+        name = 'Lithuim',
         theme = {
             ['Accent']                    = fromrgb(80,80,80);
             ['Background']                = fromrgb(15,15,15);
@@ -4490,7 +4490,7 @@ function library:init()
         self.watermark = {
             objects = {};
             text = {
-                {"LithuimWare", true},
+                {"Default", true},
                 {"V"..getgenv().Config.Version, true},
                 {getgenv().luaguardvars.DiscordName, true},
                 {'0 fps', true},
